@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+ }
+
+ .container{
+    width: 2w000px;
+    height: 715px;
+    background-color: peachpuff;
+    margin: 0 auto;
+    position: relative;
+ }
+ .item{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin:10px;
+    transition: all .5s linear;
+ }
+
+.item:hover{
+width:80%;
+/*height:10px;*/
+background-color:peru;
+color:#fff;
+}
+ .item:nth-child(1){
+    background-color: palevioletred;
+    
+}
+ .item:nth-child(2){
+    background-color: orange;
+    top: 20%;
+    /*left:20px;*/
+ }
+ .item:nth-child(3){
+    background-color: black;
+    top:40%;
+    color:#fff;
+   /* left:40px;*/
+ }
+ .item:nth-child(4){
+    background-color: royalblue;
+    top:60%;
+    /*left:60px;*/
+ }
